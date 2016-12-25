@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+
+<script>
+  
+  
+   
+</script>
+
+
+<head>
+<title>Tizen web app project</title>
+	
+</head>
+<body ng-controller="helloants">
+<h1>DB search</h1>
+
+<div>					
+	<ul class="ui-listview">
+		<li class="ui-group-index">Menu</li>
+		<li class="ui-li-anchor"><a href="http://mclab28.sogang.ac.kr:8080/" class="btn btn-default">Multi Chat</a></li>
+		<li class="ui-li-anchor"><a href="http://mclab28.sogang.ac.kr:8080/section1.html">DB search</a></li>		
+	</ul>	
+</div>
+
+
+	
+	<form  action='/search' method="post" >
+		<font size="3">search(msg) :</font><input type = "text" name="name" style="width:200px;" />
+		<input type="submit" id="datasend" value="send" />
+	</form>
+	
+	<form  action='/search2' method="post" >
+		<font size="3">search(img) :</font><input type = "text" name="name" style="width:200px;" />
+		<input type="submit" id="datasend" value="send" />
+	</form>
+</body>
+</html>
+

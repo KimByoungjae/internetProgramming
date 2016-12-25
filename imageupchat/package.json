@@ -1,0 +1,25 @@
+{
+  "name": "imageupchat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "date-utils": "^1.2.21",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "formidable": "^1.0.17",
+    "fs": "0.0.1-security",
+    "fs-extra": "^1.0.0",
+    "http": "0.0.0",
+    "mongojs": "^2.4.0",
+    "mysql": "^2.12.0",
+    "socket.io": "^1.7.2"
+  }
+}
